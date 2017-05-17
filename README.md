@@ -1,4 +1,7 @@
 # CbList
+
+[![Gem Version](https://badge.fury.io/rb/cb_list.svg)](https://badge.fury.io/rb/cb_list)
+
 List ActiveRecord callbacks for a given Class
 
 
@@ -7,7 +10,7 @@ List ActiveRecord callbacks for a given Class
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'cb_list'
+gem 'cb_list', group: :development
 ```
 
 And then execute:
