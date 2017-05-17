@@ -1,6 +1,8 @@
 # CbList
 
 [![Gem Version](https://badge.fury.io/rb/cb_list.svg)](https://badge.fury.io/rb/cb_list)
+[![Code Climate](https://codeclimate.com/github/zoki/cb_list/badges/gpa.svg)](https://codeclimate.com/github/zoki/cb_list)
+
 
 List ActiveRecord callbacks for a given Class
 
