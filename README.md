@@ -1,8 +1,6 @@
 # CbList
+List ActiveRecord callbacks for a given Class
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cb_list`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -21,8 +19,10 @@ Or install it yourself as:
     $ gem install cb_list
 
 ## Usage
+Display callbacks for Post model:
 
-TODO: Write usage instructions here
+    $ bin/rails ar:callbacks:show[Post] 
+
 
 ## Development
 
