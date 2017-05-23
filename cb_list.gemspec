@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Zoran Žabčić"]
   spec.email         = ["zoran@effectiva.hr"]
 
-  spec.summary       = %q{List activerecord callbacks.}
-  spec.description   = %q{List activerecord callbacks for a given class.}
+  spec.summary       = %q{List Active Record callbacks.}
+  spec.description   = %q{List Active Record callbacks for a given class.}
   spec.homepage      = "https://github.com/zoki/cb_list"
   spec.license       = "MIT"
 

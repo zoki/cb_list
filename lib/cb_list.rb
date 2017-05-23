@@ -10,7 +10,7 @@ module CbList
     delimiter_1 = "=" * 20
     delimiter_2 = "-" * 20
     
-    print_out "#{klass.name} ActiveRecord Callbacks".red
+    print_out "#{klass.name} Active Record Callbacks".red
 
     names.each.with_index(1) do |name, name_index|
       print_out
@@ -26,7 +26,7 @@ module CbList
           print_out "#{kind_name}".blue
           print_out delimiter_2.blue
           kind_callbacks.each.with_index(1) do |callback, callback_index|
-            print_out "#{callback_index} #{callback.raw_filter}".green
+            print_out "#{callback_index}. #{callback.raw_filter}".green
           end.presence || print_out("Empty")
         end
       end
